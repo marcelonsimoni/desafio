@@ -3,20 +3,7 @@ ini_set('display_errors',1);
 ini_set('display_startup_erros',1);
 error_reporting(E_ALL);
 header('Content-Type: application/json; charset=utf-8');
-/*function __output_header__( $__success = true, $__message = null, $_dados = array() )
-{
-    header('Content-Type: application/json; charset=utf-8');
-    echo json_encode(
-        array(
-            'success' => $__success,
-            'message' => $__message,
-            'dados'   => $_dados
-        )
-    );
-    # por ser a ultima funcao, podemos matar o processo aqui.
-    exit;
-}
-*/
+
 class wsApi
 {
 
