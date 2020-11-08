@@ -16,7 +16,7 @@ negativas para fazer a comparação.
   - Decidi criar uma classe para trabalhar com o novo arquivo json e os parâmetros são passados através de um array().
   - É possível trabalhar com vários parâmetros de envio para que a API possa retornar exatamento o que o usuário deseja:
   
-######PARAMETROS PARA A URL
+#### PARAMETROS PARA A URL
   - filtro = dataCriacao ou prioridade
   - ordenacao = dataCriacao, dataAtualizacao ou prioridade
   - inicio = data no formato: YYYY-mm-dd
