@@ -254,6 +254,7 @@ if(!empty($_REQUEST['impressao'])) {
     echo json_encode($retorno);
 }
 /*
+
 PARAMETROS PARA A URL
 filtro = dataCriacao ou prioridade
 ordenacao = dataCriacao, dataAtualizacao ou prioridade
@@ -266,14 +267,10 @@ impressao = linha ou cascata
 
 
 
-
-
 Um algoritmo que classifique nossos tickets
 Uma API que exponha nossos tickets com os seguintes recursos
 Ordenação por: Data Criação, Data Atualização e Prioridade
 Filtro por: Data Criação (intervalo) e Prioridade
 Paginação
 
-sudo chcon -t httpd_sys_rw_content_t /var/www/html/desafio -R
-
- */
+*/
