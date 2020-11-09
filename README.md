@@ -31,6 +31,15 @@ negativas para fazer a comparação.
 ### URL para Testar o desafio
 http://desafio.ms7.com.br/ws-api.php
 
+Os parâmetros padrões para o retorno da API são:
+filtro => datacriacao,
+ordenacao => datacriacao,
+inicio => 2017-12-01,
+termino => 2020-12-31,
+tipoPrioridade => alta,
+paginacao => 30,
+pagina => 1,
+
 Exemplos de como utilizar os parâmetros acima para manipular o retorno da api:
 - http://desafio.ms7.com.br/ws-api.php?pagina=1&paginacao=3&filtro=dataCriacao&impressao=linha
 - http://desafio.ms7.com.br/ws-api.php?pagina=1&paginacao=3&filtro=dataCriacao&impressao=cascata
