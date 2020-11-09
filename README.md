@@ -4,11 +4,11 @@ Foi proposto um desafio para classificar os tickes e depois filtrá-los de acord
 
 ### Resolução: 
 - Sobre o Algorítmo:
-  - Primeiro foi desenvolvido um algorítimo que classificasse os tickets. 
+  - Primeiro desenvolvi um algorítimo que classificasse os tickets. 
 Foi utilizado o subject para verificar o tipo de prioridade do ticket aberto, mas poderia facilmente utilizar a mensagem ou a mensagem e o subject. 
 Como não foi explicado o modo de como fazê-lo, optei pelo subject pois ali continha 
 palavras mais fortes para a classificação.
-  - Utilizei a função do PHP para verificar a similaridade das palavras. Criei também um array de palavras positivas e 
+  - Utilizei a função do PHP para verificar a similaridade das palavras. Inicialmente havia utilizado o método de comparação das palavra mas imaginei que poderiam ter palavras com erro por exemplo "parabesn" ou invés de "parabens" e por esse motivo decidi usar a função de similaridade do PHP. Criei também um array de palavras positivas e 
 negativas para fazer a comparação.
   - Salvei a similaridade e a pontuação em um novo arquivo json, bem como a classificação de ALTA ou NORMAL com base nos 70% de similaridade do subject.
   
